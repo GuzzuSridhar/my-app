@@ -1,12 +1,16 @@
-\### What's Included in This README:
+# React + Vite
 
-\* \*\*Clear Project Description:\*\* Overview of a modern employee tracking portal.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-\* \*\*Feature List:\*\* Covering operations like CRUD handling, advanced searching, and metrics dashboard tracking.
+Currently, two official plugins are available:
 
-\* \*\*Complete Tech Stack Breakdown:\*\* Highlights the combination of React, Vite, TypeScript, and modern styling tools like Tailwind CSS.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-\* \*\*Quick Start Guide:\*\* Step-by-step setup commands including cloning, variable handling, and initial installation.
+## React Compiler
 
-\* \*\*Standardized Project Architecture Hierarchy:\*\* Displays a professional front-end directory layout containing separated components, views, hooks, and routing logic.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
